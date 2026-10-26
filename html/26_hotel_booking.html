@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Hotel Booking System</title>
+    </head>
+    <body>
+        <h1 align="center">Royal Palace Hotel</h1>
+        <hr>
+        <h2>Rooms information</h2>
+        <table border="1" cellpadding="12">
+            <tr>
+                <th>Room type</th>
+                <th>Capacity</th>
+                <th>Price/Night</th>
+                <th>Facilities</th>
+            </tr>
+            <tr>
+                <td>Standard</td>
+                <td>2 person</td>
+                <td>2500</td>
+                <td>wifi, tv</td>
+            </tr>
+            <tr>
+                <td>Deluxe</td>
+                <td>3 person</td>
+                <td>4000</td>
+                <td>wifi, tv</td>
+            </tr>
+            <tr>
+                <td>Suite</td>
+                <td>5 person</td>
+                <td>2500</td>
+                <td>wifi, tv, ac, breakfast</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Book your room</h2>
+        <form>
+            <h2>Guest details</h2>
+            <label>Full Name : </label>
+            <input type="text" required>
+            <br><br>
+            <label>Email : </label>
+            <input type="email" required>
+            <br><br>
+            <label>Mobile No : </label>
+            <input type="tel" required>
+            <br><br>
+            <label>Check-in : </label>
+            <input type="date" required>
+            <br><br>
+            <label>Check-out : </label>
+            <input type="date" required>
+            <br><br>
+            <label>Adults : </label>
+            <input type="number" min="1" max="7" required>
+            <br><br>
+            <label>Childrens : </label>
+            <input type="number" min="0" max="4" required>
+            <br><br>
+            <h2>Room section</h2>
+            <select> 
+                <option>Select room</option>
+                <option>Standard</option>
+                <option>Deluxe</option>
+                <option>Suite</option>
+            </select>
+            <h2>Additional services</h2>
+            <input type="checkbox">breakfast
+            <br>
+            <input type="checkbox">Airport pickup
+            <br>
+            <input type="checkbox">Laundry
+            <br>
+            <input type="checkbox">Extra bed
+            <br><br>
+            <input type="submit" value="book now">
+        </form>
+    </body>
+</html>
