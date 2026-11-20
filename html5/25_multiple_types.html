@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="success.html" method="post">
+        <table border="1" cellpadding="10" align="center" width="50%">
+            <tr>
+                <th bgcolor="yellow">Compose email</th>
+            </tr>
+            <tr>
+                <td><input type="emial" id="email" placeholder="Enter your email address" rquired></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="subject" placeholder="Enter your subject" required></td>
+            </tr>
+            <tr>
+                <td bgcolor="#eeeee">
+                    Attachment
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file" name="Attachment" id="Attachment" multiple accept=".doc,.docx,.xls,.xlsx,.ppt,.pptx,.pdf">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Send email</button>
+                    <button type="reset">Clear all</button>
+                    <button type="button">I can't do anything</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
