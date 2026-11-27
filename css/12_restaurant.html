@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Restaurant</title>
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:#fff8f0;
+        }
+        header{
+            background-color:#e63946;
+            color:white;
+            padding:25px;
+            text-align:center;
+        }
+        nav{
+            background-color:#333;
+            padding:15px;
+            text-align:center;
+        }
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+        }
+        .container{
+            display:flex;
+            justify-content:center;
+            gap:25px;
+            padding:30px;
+        }
+        .food{
+            background-color:white;
+            width:250px;
+            padding:20px;
+            text-align:center;
+            border-radius:10px;
+            box-shadow:0 4px 10px #ccc;
+        }
+        .food img{
+            width:100%;
+            height:150px;
+            object-fit:cover;
+            border-radius:10px;
+        }
+        button{
+            background-color:black;
+            color:white;
+            padding:10px 20px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+        button:hover{
+            /*transform:translateY(-5px);*/
+            transform:scale(1.2);
+            background-color:green;
+            box-shadow:0 5px 10px gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Foodie Restaurant</h1>
+        <p>Delicious food, Happy life</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="food">
+            <img src="https://picsum.photos/500?random=1" alt="">
+            <h2>Pizza</h2>
+            <p>Cheesy and delicious</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="https://picsum.photos/500?random=2" alt="">
+            <h2>Burger</h2>
+            <p>Fresh and testy burger</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="https://picsum.photos/500?random=3" alt="">
+            <h2>Grilled food</h2>
+            <p>Enjoy oyr special dishes</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+</body>
+</html>
